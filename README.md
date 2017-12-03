@@ -37,7 +37,7 @@
          
 ## 【参考文献】
 
-1. Tensorflow Sequence-to-Sequence Models https://www.tensorflow.org/tutorials/seq2seq  
+1. Tensorflow Sequence-to-Sequence Models https://www.tensorflow.org/versions/r1.1/tutorials/seq2seq  
 
 2. 古谷愛 (2017)「Pythonプログラミング教室 環境づくりからWebアプリが動くまでの2日間コース」SBクリエイティブ
 
