@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://design-p.jp/_froide/nanako/ -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://design-p.jp/_froide/nanako/">--><base href=".">
+
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+<link rel="icon" href="/static/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style_pc.css">
+<link rel="stylesheet" type="text/css" href="/static/css/jquery.mobile.custom.structure.css">
+<script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.mobile.custom.js"></script>
+<script type="text/javascript" src="/static/js/common.js"></script>
+<script type="text/JavaScript" src="/static/js/chat/chat.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+<title>会話アプリケーション</title>
+<style id="style-1-cropbar-clipper">
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+
+<body>
+
+<header>
+</header>
+
+
+<article id="chat">
+<h2>(注)botからの返答が返ってくるまで「送信」ボタンはクリックできないようにしています。</h2>
+<h3>返答が返ってくるまで1~3分程度かかります。</h3>
+
+<div class="a_box">
+  <div class="faceicon">
+   <img src="/static/images/face_01.jpg" alt="顔">
+  </div>
+  <div class="chatting">
+    <div class="a_text">
+      <p>お話ししましょう</p>
+      <span>{{ timestamp }}</span>
+    </div>
+  </div>
+</div>
+
+</article>
+
+<footer>
+<div>
+<form id="question_form">
+<input id="question" type="text" placeholder="ここにテキストを入力してください。"><input id="send" type="submit" value="送信">
+</form>
+</div>
+</footer>
+
+
+<div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; top: -100000px; left: -100000px; background: transparent;"></div></body><umsdataelement id="UMSSendDataEventElement"></umsdataelement></html>
