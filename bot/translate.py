@@ -99,7 +99,7 @@ def read_data(source_path, target_path, max_size=None):
       len(target) < _buckets[n][1]; source and target are lists of token-ids.
   """
   data_set = [[] for _ in _buckets]
-  with tf.gfile.GFile(source_path, mode="r") as source_file:            
+  with tf.gfile.GFile(source_path, mode="r") as source_file:
     with tf.gfile.GFile(target_path, mode="r") as target_file:
       source, target = source_file.readline(), target_file.readline()
       counter = 0
@@ -244,9 +244,10 @@ def train():
 '''
 デコード（会話モード）
 '''
-def decode(input_text):
-  with tf.Session() as sess:
-    model = create_model(sess, True)
+#def decode(input_text):   #2017/12/11コメントアウト
+def decode(input_text,sess,model):    #引数にsess,modelを追加
+  #with tf.Session() as sess:          #2017/12/11コメントアウト
+    #model = create_model(sess, True)  #2017/12/11コメントアウト
     model.batch_size = 1
 
     in_vocab_path = os.path.join("bot/datas","vocab_in.txt")
