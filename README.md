@@ -5,9 +5,11 @@
     MyChatBot
   
 ## 【履歴】
+* 新規作成 :2017/11/26
 
-    新規作成 :2017/11/26  
-    修正1   :2017/12/11 返答時間を短くするためにmodelをviews.py内で作成する処理に変更した。結果、大幅に返答時間が短縮された。
+* 修正１　 :2017/12/11  
+   返答時間を短くするためにモデルの作成をviews.py内で行う処理に変更した。結果、大幅に返答時間が短縮された。
+
 ## 【動作確認環境】
 
 * macOS 10.12.6
@@ -34,7 +36,7 @@
 
     ※ このアプリを動かすためには、Python3、Tensorflow1.3、Django、MeCabがインストールされていることが前提です。  
     ※ 参考文献3にあるような事象が発生する場合は、Tensorflow1.3インストールディレクトリ以下  
-       /contrib/legacy_seq2seq/python/ops内のseq2seq.pyをリネームしてMyChatbotリポジトリ内のseq2seq.pyを配置する。  
+    /contrib/legacy_seq2seq/python/ops内のseq2seq.pyをリネームしてMyChatbotリポジトリ内のseq2seq.pyを配置する。  
          
 ## 【参考文献】
 
